@@ -1,0 +1,45 @@
+.footer-container{
+    background-color: rgba(0, 0, 0, 1);
+    display: flex;
+    align-items: center;
+    padding: 2rem 2rem;
+    justify-content: space-between;
+    color: white;
+}
+
+
+.footer-img{
+    width: 20%;
+    /* height: 20%; */
+    aspect-ratio: 1;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 1rem;
+    border-bottom: 1px solid white;
+    border-right: 1px solid white;
+    box-shadow: 5px 10px 15px 5px rgba(0, 0, 0, 0.4);
+}
+
+.align-strt{
+    align-self: flex-start;
+    font-size: 1.2rem;
+}
+
+.mt{
+    margin-top: 1rem;
+}
+
+.contact-title{
+    font-weight: 600;
+}
+
+.footer-links{
+    list-style: none;
+}
+
+.align-strt>h1{
+    margin-bottom: 1rem;
+}
+
+.footer-links>li{
+    padding: 0.5rem;
+}

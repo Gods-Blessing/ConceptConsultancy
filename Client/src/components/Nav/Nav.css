@@ -1,0 +1,141 @@
+.nav-container{
+    position: fixed;
+    left: 0px;
+    right: 0px;
+    display: flex;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(5px);
+    padding: 0.7rem 2rem;
+    justify-content: space-between;
+    z-index: 5;
+}
+
+.site-info{
+    display: flex;
+    align-items: center;
+}
+
+.site-logo{
+    /* width: 60px; */
+    height: 4rem;
+    border-radius: 50%;
+    margin-right: 1rem;
+}
+
+.nav-container>ul{
+    display: flex;
+    list-style: none;
+    gap: 1.5rem;
+    font-weight: 600;
+}
+
+.nav-container>ul>a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.2rem;
+}
+
+/* .nav-container>div{
+    display: flex;
+    align-items: center;
+    gap: 10%;
+} */
+
+.search-input{
+    padding: 0.3rem;
+    width: 22vw;
+    font-size: 1.2rem;
+    border-radius: 0.5rem;
+}
+
+.login-div, .profile-div{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    background-color: black;
+    color: white;
+    padding: 0.5rem 0.6rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+
+.profile-div{
+    position: relative;
+}
+
+.login-div>img, .profile-div>img{
+    width: 30px;
+    aspect-ratio: 1;
+    background-color: white;
+    border-radius: 50%;
+}
+
+.user-name{
+    text-transform: capitalize;
+}
+
+.a-tag{
+    text-decoration: none;
+}
+
+.hamburger-container{
+    display: none;
+    position: relative;
+}
+
+.hamburger-icon{
+    width: 30px;
+    cursor: pointer;
+}
+
+.hamburger-ul{
+    list-style: none;
+    position: absolute;
+    top: 150%;
+    right: 0px;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 0.5rem;
+    backdrop-filter: blur(15px);
+}
+
+.hamburger-ul>a{
+    text-decoration: none;
+    color: black;
+}
+
+.hamburger-ul>a>li{
+    display: flex;
+    padding: 0.5rem 2.5rem;
+    border-radius: 0.5rem;
+}
+
+.hamburger-ul>a>li:hover{
+    background-color: gray;
+}
+
+@media screen and (max-width:800px) {
+    .nav-container{
+        padding: 1rem;
+    }
+
+    .hamburger-container{
+        display: flex;
+    }
+
+    .nav-container>ul{
+        display: none;
+    }
+
+    .search-input{
+        width: 60%;
+    }
+
+    .login-div{
+        display: none;
+    }
+}
+
+.display-none{
+    display: none;
+}

@@ -1,0 +1,33 @@
+.job-search-input{
+    padding: 5rem 2rem;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.job-search-input>input{
+    width: 35%;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.job-search-input>input, .job-search-input>select{
+    padding: 0.5rem 0.5rem;
+}
+
+.job-search-input>select{
+    width: 18%;
+    padding-right: 1rem;
+    font-size: 1.2rem;
+
+}
+
+/* ---- jobs container ---------- */
+.Jobs-container{
+    padding: 2rem 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+}

@@ -1,0 +1,110 @@
+.profile-container{
+    padding: 1rem;
+}
+
+.editing-btn{
+    padding: 0.5rem 2rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+    background-color: rgba(94, 145, 235, 0.5);
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+
+.bio-info-div{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    padding: 2rem 3rem;
+    gap: 1.5rem;
+}
+
+.bio-info-div>div>p:first-child{
+    font-weight: 600;
+    font-size: 1.2rem;
+    text-decoration: underline;
+}
+
+.small-info-divs{
+    display: flex;
+    margin-bottom: 0.5rem; 
+    align-items: center;
+    gap: 1.5%;
+}
+
+.userr-name{
+    text-transform: capitalize;
+}
+
+
+
+.profile-info-sub-headings{
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-left: 1rem;
+}
+
+
+
+
+
+/* Editing form */
+.profile-editing-form{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    padding: 2rem 3rem;
+    gap: 1.5rem;
+}
+
+.d-flex{
+    display: flex;
+}
+
+.profile-editing-form>div{
+    display: flex;
+    flex-direction: column;
+}
+
+.profile-editing-form>div>label, .users-name-label{
+    font-size: 1.3rem;
+    font-weight: 800;
+    margin-bottom: 0.3rem;
+}
+
+.profile-editing-form>div>input, .profile-editing-form>div>textarea{
+    margin-left: 1rem;
+    justify-self: start;
+    align-self: flex-start;
+    padding: 0.5rem 0.5rem;
+    width: 30%;
+    font-weight: 600;
+    font-size: 1.2rem;
+    margin-bottom: 2%;
+    border: none;
+    border-bottom: 1px solid black;
+}
+
+.profile-editing-form>div>textarea{
+    width: 50%;
+}
+
+.profile-editing-form>button{
+    background-color: rgba(35, 88, 180, 0.5);
+    align-self: flex-start;
+    margin-left: 10%;
+    padding: 0.5rem 2.5rem;
+    font-weight: 600;
+    font-size: 1.5rem;
+    border-radius: 1rem;
+}
+
+
+.users-name{
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-transform: capitalize;
+    margin-left: 1rem;
+}
+
+

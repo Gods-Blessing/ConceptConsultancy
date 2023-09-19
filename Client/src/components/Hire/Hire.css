@@ -1,0 +1,93 @@
+.hire-page-container{
+    display: flex;
+    justify-content: center;
+    padding: 2rem 2rem 4rem 2rem;
+}
+
+.hire-page-container>form{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    gap: 4vh;
+    border: 2px solid black;
+    padding: 2% 3% 3% 3%;
+    border-radius: 2%;
+}
+
+.post-job-heading{
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+.flex-clm{
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+}
+
+.flex-clm>label, .flex-clm>div>label{
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.flex-clm>div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.flex-row{
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex-wrap{
+    flex-wrap: wrap;
+}
+
+.location-child-divs>div{
+    margin-bottom: 0.5rem;
+}
+
+.flex-row>div>input{
+    padding: 0.5rem 0.3rem;
+    font-size: 1.05rem;
+    font-weight: 600;
+    margin-left: 0.3rem;
+}
+
+.flex-row>div>label{
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.flex-clm>input, .flex-clm>textarea, .flex-clm>div>input{
+    padding: 0.5rem 0.6rem;
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-left: 1rem;
+}
+
+.description-input>input{
+    width: 85%;
+}
+
+.small-font{
+    font-size: 1rem;
+    margin-left: 2rem;
+}
+
+.post-job{
+    margin-top: 1.5rem;
+    align-self: center;
+    padding: 0.5rem 1rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.adding-input-icon{
+    width: 30px;
+    cursor: pointer;
+}
