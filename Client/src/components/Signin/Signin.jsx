@@ -31,7 +31,6 @@ export default function Signin(){
             },
             body: JSON.stringify(userDetail)
         })
-        console.log(response.status);
          if(response.status === 200){
             let data = await response.json();
             localStorage.setItem('info_cc', JSON.stringify(data))
@@ -56,7 +55,7 @@ export default function Signin(){
                 </div>
                 <div>
                     <label htmlFor="">Password : </label>
-                    <input type="text" name='password' onChange={HandleChange} value={userDetail.password} required/>
+                    <input type="password" name='password' onChange={HandleChange} value={userDetail.password} required/>
                 </div>
                 {error && <p className='error'>* Email or Password is wrong</p>}
                 <button className='signin-signup-btn'>Signin</button>

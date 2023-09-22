@@ -121,11 +121,11 @@ export default function HireSignup(){
                 </div>
                 <div>
                     <label htmlFor="">Password : </label>
-                    <input type="text" className='Password' value={HirersData.Password} name='Password' onChange={HandleHirersFormChange} minLength='8' required/>
+                    <input type="password" className='Password' value={HirersData.Password} name='Password' onChange={HandleHirersFormChange} minLength='8' required/>
                 </div>
                 <div>
                     <label htmlFor="">Confirm Password : </label>
-                    <input type="text" value={HirersData.ConfirmPassword} className='ConfirmPassword' name='ConfirmPassword' onChange={HandleHirersFormChange} minLength='8' required/>
+                    <input type="password" value={HirersData.ConfirmPassword} className='ConfirmPassword' name='ConfirmPassword' onChange={HandleHirersFormChange} minLength='8' required/>
                 </div>
 
                 <button className='signin-signup-btn'>Register</button>
@@ -151,12 +151,12 @@ export default function HireSignup(){
                 </div>
                 <div>
                     <label htmlFor="">Password : </label>
-                    <input type="text" name='Password' value={jobSeekerData.Password} onChange={HandleJobSeekerformChange} minLength='8' required/>
+                    <input type="password" name='Password' value={jobSeekerData.Password} onChange={HandleJobSeekerformChange} minLength='8' required/>
                 </div>
 
                 <div>
                     <label htmlFor="">Confirm Password : </label>
-                    <input type="text" value={jobSeekerData.ConfirmPassword} name='ConfirmPassword' onChange={HandleJobSeekerformChange} minLength='8' required/>
+                    <input type="password" value={jobSeekerData.ConfirmPassword} name='ConfirmPassword' onChange={HandleJobSeekerformChange} minLength='8' required/>
                 </div>
 
                 <button className='signin-signup-btn'>Register</button>

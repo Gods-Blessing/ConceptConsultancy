@@ -63,7 +63,7 @@ export default function Nav(){
             <div>
                 {!user ? <Link className='a-tag' to='./signin'>
                     <div className='login-div'>
-                            <img src={avatar} alt="" />
+                            <img src={avatar} alt="avatar" />
                             <h1>Login</h1>
                     </div>
                 </Link> 
@@ -78,19 +78,19 @@ export default function Nav(){
                     </div>
                 }
 
-                <div className='hamburger-container'>
+                {/* <div className='hamburger-container'>
                     <img className='hamburger-icon' src={hamburger} alt="" onClick={()=>setVisible(!visible)}/>
 
 
                     {visible && <ul className='hamburger-ul'>
                         <Link to='/home'><li>Home</li></Link>
-                        <Link to='/home'><li>About Us</li></Link>
+                        <Link to='/home'><li></li></Link>
                         <Link to='/home'><li>Portfolio</li></Link>
                         <Link to='/home'><li>Page</li></Link>
                         <Link to='/home'><li>Services</li></Link>
                         <Link to='/home'><li>Blog</li></Link>
                     </ul>}
-                </div>
+                </div> */}
             </div>
 
 

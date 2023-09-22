@@ -124,7 +124,7 @@
     }
 
     .nav-container>ul{
-        display: none;
+        display: flex;
     }
 
     .search-input{
@@ -132,7 +132,7 @@
     }
 
     .login-div{
-        display: none;
+        display: flex;
     }
 }
 

@@ -22,18 +22,45 @@ export const CreateJobs = async (req,res)=>{
 }
 
 export const getAllJobs = async(req,res)=>{
-    console.log(req.userid);
     let user = await JobSeekerUser.findById(req.userid);
-    // if(!user){
-    //     return res.status(401).json({
-    //         message: 'UnAuthorized'
-    //     })
-    // }
-    let jobs = await Jobs.find();
+    if(!user){
+        return res.status(401).json({
+            message: 'UnAuthorized'
+        })
+    }
+
+    let jobbs;
+
+    if(req.query.State != '' || req.query.PostTitle != ''){
+        // filtering using aggregations
+        jobbs = await Jobs.aggregate([{$match:
+            {$and:[
+                {State:{$regex: req.query.State , $options:'i'}},
+                {PostTitle:{$regex: req.query.PostTitle , $options:'i'}}
+            ]}},
+            {
+                $lookup: {
+                    from: "hiringusers",
+                    localField: "CreatedBy",
+                    foreignField: "_id",
+                    as: "CreatedBy"
+                }
+            },
+            {
+                $project:{"CreatedBy.Password":0}
+            },
+            {
+                $unwind:"$CreatedBy"
+            }
+            ])
+    }else{
+        jobbs = await Jobs.find();
+    }
+
     // let newData = jobs.map((data)=>{ return {...data, [data._id]:undefined}});
     //     console.log("newdata",newData);
     return res.status(200).json({
-        message: jobs,
+        message: jobbs,
         Uid: req.userid
     })
 }

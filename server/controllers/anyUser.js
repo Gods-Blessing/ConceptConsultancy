@@ -5,7 +5,7 @@ import {HiringUser} from '../models/HirereUserModel.js';
 export const singin = async(req, res)=>{
     console.log(req.body);
     let jobseeker = await JobSeekerUser.findOne({Email: req.body.email});
-    console.log(jobseeker);
+    // console.log(jobseeker);
 
     if(jobseeker){
         if(jobseeker.Password !== req.body.password){
@@ -14,7 +14,7 @@ export const singin = async(req, res)=>{
             })
         }
         let token = creatingToken(jobseeker._id);
-        console.log(token);
+        // console.log(token);
 
         return res.status(200).json({
             message: token,
