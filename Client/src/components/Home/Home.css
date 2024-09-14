@@ -116,7 +116,8 @@
 
 .card-container{
     height: 40vh;
-    width: 15vw;
+    /* width: 15vw; */
+    width: 25%;
     perspective: 800px;
     padding: 1rem;
     cursor: pointer;
