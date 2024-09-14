@@ -1,5 +1,6 @@
 import './Footer.css';
 import sitelogo from '../../assets/site-logo.jpg'
+import { Link } from 'react-router-dom';
 
 export default function Footer(){
 
@@ -22,10 +23,12 @@ export default function Footer(){
                 <p>D1 75A Ground-Floor,</p>
                 <p> Kondli, Mayur Vihar, Phase-3,</p>
                 <p>Delhi-110096</p>
+                <p className='mt'>Founder : Varun Kulasari</p>
+                <p>Co-Founder : Hitesh Kulasari</p>
 
-                <p className='mt'><span className='contact-title'>Email : </span> <span>business@conceptconsultant.asia</span></p>
+                <p className='mt'><span className='contact-title'>Email : </span> <a href='mailto:business@conceptconsultant.asia'>business@conceptconsultant.asia</a></p>
 
-                <p className='mt'><span className='contact-title'>Phone : </span> <span>+918800101994, +919667664754</span></p>
+                <p className='mt'><span className='contact-title'>Phone : </span> <a href='tel:+918800101994'>+918800101994, +919667664754</a></p>
 
                 <div>
                     
