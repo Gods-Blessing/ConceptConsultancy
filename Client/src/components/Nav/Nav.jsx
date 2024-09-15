@@ -32,7 +32,7 @@ export default function Nav(){
                 <Link to='/'>
                     <img className='site-logo' src={sitelogo} alt="sitelogo" />
                 </Link>
-                <h1>CCS</h1>
+                {/* <h1>CCS</h1> */}
             </div>
 
             <ul className='other-links'>

@@ -16,7 +16,7 @@ export default function Home(){
                         Concept consultant service
                     </span> <br /> 
                     <span className='heading-about m-l-5rem'>
-                        is a global management and technology consulting firm
+                        is a global management and technology consulting firm since 2019
                     </span>  <br />
                     <span className='heading-about m-l-10rem'>
                         specializing in strategic profitability improvement, digital transformation, and advisory services.
