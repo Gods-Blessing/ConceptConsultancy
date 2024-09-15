@@ -12,7 +12,7 @@ export default function Home(){
         <main className='main-container'>
             <div className='main-first-div'>
                 <p>
-                    <span className='heading'>
+                    <span className='heading underline'>
                         Concept consultant service
                     </span> <br /> 
                     <span className='heading-about m-l-5rem'>
@@ -22,6 +22,73 @@ export default function Home(){
                         specializing in strategic profitability improvement, digital transformation, and advisory services.
                     </span>
                 </p>
+            </div>
+
+            <div className='commitment-div'>
+                <div>
+                    <h2>
+                        <u>
+                            Concept consultant service provides skillful and experienced talent.
+                        </u>
+                    </h2>
+
+                    <p className='line-ht-1rem'>
+                        For Staffing new IT/Non-IT projects or for helping you during peak times, our information technology recruiters will quickly provide you with industry's best IT/Non-IT professionals-even an entire team-with the right expertise, skills and knowledge. 
+                    </p>
+                </div>
+
+                <i>we are committed to helping capable and qualified candidates succeed in finding rewarding careers with reputable employers.</i>
+
+                <div>
+                    <p>IT Recruitment Services</p>
+                    <p>IT Recruitment and Staffing refers to the engagement of a recruitment agency who specialises in the area of Information Technology and acts as a kind of intermediary between a company that’s looking to hire qualified and skilled IT professionals and individuals who are looking for employment. Its main function is to source for the most suitable IT staff according to the specifics and requirements given by the respected client. Perito is very proud to be the Top IT Staffing Companies in India.</p>
+                </div>
+
+                <div>
+                    <p>IT Contract Staffing Services</p>
+                    <p>IT contract staffing refers to the hiring of skilled IT staff on a contract basis, usually over a specified period of time.Many of the information technology and software development projects are carried out in phases, usually over a 6-month to 2-year project cycles.These projects require quality professionals who are well-trained with the requisite experience and they are generally expected to “hit the road running”.This means that they must have the technical skill-sets and relevant work experience in order to take on the contract assignment.Because of this, IT companies may offer higher salaries and compensation package to hire their talents and skills over the contract period.</p>
+                </div>
+
+                <div>
+                    <p>IT Outsourcing Services</p>
+                    <p>IT Outsourcing refers to the strategic engagement of external IT services providers like Perito to effectively and efficiently deliver Information Technology-enabled business processes with functions ranging from infrastructure to engineering, maintenance, and support.</p>
+                </div>
+            </div>
+
+            <div className='padded talent-div'>
+                <h1>If you have a talent requirement, then contact us today.</h1>
+
+                <div>
+                    <h3>Our core areas of IT recruitment expertise</h3>
+                    <ul>
+                        <li>Engineering (Front and Backend, DevOps and Fullstack)</li>
+                        <li>Data Science, Big data and Analytics</li>
+                        <li>Business Intelligence/Data warehousing
+                        </li>
+                        <li>Project Management / Product Manager / Product Owner / Product Designer</li>
+                    </ul>
+                    <p>Committed to helping people and companies realise their potential, our recruitment consultants create an exceptionalrecruitment experience for clients and candidates.</p>
+                </div>
+
+                <div>
+                    <h3>Skillset</h3>
+                    <p>We can provide your company with dedicated IT professionals who have expertise in the following areas: –</p>
+
+                    <ul>
+                        <li>Mobile Applications- Android – Native/ Hybrid, IOS, Windows</li>
+                        <li>Microsoft Technologies-Dotnet – MVC (All Versions), Angular JS, Cloud Computing, Cloud Architecture, WPF,WCF</li>
+                        <li>Azure- BLOB Storage, SQL Azure, App service, Web job, Azure Search, Redis Cache, Web App Bot (Chat Bot), Send Grid (for mail)</li>
+                        <li>Database Administration-MySQL, MS SQL, Oracle</li>
+                        <li>Software/Telecom Testing-Selenium, Cucumber, Test NG, Performance Testing, EBS Testing, Mobile Testing, Guidewire</li>
+                        <li>Sun Technologies– Java – Microservices/Web Services, Apache, Angular Frameworks,FullStack, Guidewire,React/Node JS</li>
+                        <li>Infra Services– Unix/Linux/Windows, Lotus Notes/Lotus Dominos,ExchangeServer,Networking,VOIP,,Cisco,Juniper, Avaya</li>
+                        <li>BI Tools– SSIS, SSRS, SSAS, Cognos, Crystal, PowerBI, Nice Performance Manager</li>
+                        <li>Open SourceTechnologies- Pearl,PHP,Python,UI, LAMP,Joomla,Apache,Tomcat</li>
+                        <li>SAP– ABAP, BOBJ, APO DP, PIPO, BPM, HCI, CPI, MDG, FICO, HRMS, CRM, MDG, SD, Hybris,SAP Financial Accounting (FI), SAP Controlling (CO),SAP Sales and Distribution (SD),AP Production Planning (PP),SAP Materials Management (MM),SAP Quality Management (QM),SAP Human Capital Management (HCM)</li>
+                        <li>Oracle- HCM, EBS, Oracle Apps Technical/Functional, ODI, CPQ, SecurityIBM Security, Application Security, GRC, Email Security,
+                        Nook Skills Service Now, Salesforce, Data Scientist,MarkLogic, Blueprism, AWS, Tibco,Captivate,EndPoint, Ionic, SIEM Implementation, Juniper Firewall, Devops, Maximo, Bigdata, Tibco</li>
+                    </ul>
+                </div>
             </div>
 
             <div className='goals-div'> 
@@ -35,7 +102,7 @@ export default function Home(){
                 <div>
                     <h1>Vision</h1>
                     <p>
-                        To be a premier management and technology consulting firm that Global 1000 companies rely on to solve their most complex business performance issues.
+                        To be a premier management and technology consulting firm that Global companies rely on to solve their most complex business performance issues.
                     </p>
                 </div>
 

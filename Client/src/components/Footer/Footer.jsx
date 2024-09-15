@@ -20,8 +20,7 @@ export default function Footer(){
 
             <div className='align-strt'>
                 <h1>Address</h1>
-                <p>D1 75A Ground-Floor,</p>
-                <p> Kondli, Mayur Vihar, Phase-3,</p>
+                <p>Mayur Vihar, Phase-3,</p>
                 <p>Delhi-110096</p>
                 <p className='mt'>Founder : Varun Kulasari</p>
                 <p>Co-Founder : Hitesh Kulasari</p>

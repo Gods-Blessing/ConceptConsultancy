@@ -1,3 +1,7 @@
+.padded{
+    padding: 2rem 3rem;
+}
+
 .main-container>div:nth-child(2n+1){
     background-color: rgba(4, 123, 16, 0.4);
 }
@@ -18,6 +22,27 @@
     font-weight: 600;
 }
 
+.line-ht-1rem{
+    line-height: 2rem;
+}
+
+.underline{
+    text-decoration: underline;
+}
+
+.talent-div{
+
+}
+
+.talent-div >div{
+    margin-top: 20px;
+}
+
+.heading2{
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
 .heading-about{
     font-size: 1.5rem;
 }
@@ -28,6 +53,19 @@
 
 .m-l-10rem{
     margin-left: 5rem;
+}
+
+/* commitment div */
+
+.commitment-div{
+    padding: 2rem 3rem;
+}
+
+.commitment-div > div>p:first-child{
+    margin-top: 20px;
+    font-weight: 600;
+    font-style: italic;
+    text-decoration: underline;
 }
 
 
